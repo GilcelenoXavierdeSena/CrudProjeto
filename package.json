@@ -1,0 +1,23 @@
+{
+  "name": "CrudProjeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilcelenoXavierdeSena/CrudProjeto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GilcelenoXavierdeSena/CrudProjeto/issues"
+  },
+  "homepage": "https://github.com/GilcelenoXavierdeSena/CrudProjeto#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
