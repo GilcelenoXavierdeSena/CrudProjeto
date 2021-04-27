@@ -1,35 +1,35 @@
 header {
-    alinhamento de texto: centro;
-    cor: # 06066c;
+    text-align: center;
+    color: #06066c;
 }
 
-. containerForm {
+.containerForm {
     display: flex;
-    direção flexível: coluna;
-    tamanho da fonte: 18 px;
-    largura: 60 %;
-    margem esquerda: automático;
-    margem direita: automático;
-    preenchimento: 8 px;
-    fundo: rgb (208, 205, 205);
-    raio da borda: 7 px;
+    flex-direction: column;
+    font-size: 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    background: rgb(208, 205, 205);
+    border-radius: 7px;
 }
 
-. containerForm input {
-    margem: 8 px 0 px;
-    fronteira: nenhum;
-    altura: 25 px;
+.containerForm input {
+    margin: 8px 0px;
+    border: none;
+    height: 25px;
 }
 
-. containerButton {
+.containerButton {
     display: flex;
-    largura: 60 %;
-    margem: 15 px auto;
-    justificar-conteúdo: centro;
+    width: 60%;
+    margin: 15px auto;
+    justify-content: center;
 }
 
-# lblDatahora {
-    margem: 8 px 0;
-    altura: 25 px;
-    plano de fundo: # fff;
+#lblDatahora {
+    margin: 8px 0;
+    height: 25px;
+    background: #fff;
 }

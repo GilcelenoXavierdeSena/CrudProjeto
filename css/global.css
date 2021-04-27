@@ -1,36 +1,37 @@
 html,
 body {
-    / * Reset do css * / margem: 0;
-    preenchimento: 0;
-    dimensionamento da caixa: caixa de borda;
+    /* Reset do css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-. titulo {
-    cor: # 0f0feb;
-    alinhamento de texto: centro;
-    família de fontes: 'Courier New', Courier, monospace;
+.titulo {
+    color: #0f0feb;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-. containerHeaderIndex {
-    margem inferior: 100 px;
+.containerHeaderIndex {
+    margin-bottom: 100px;
 }
 
-. containerMainIndex {
+.containerMainIndex {
     display: flex;
-    justificar-conteúdo: centro;
-    justificar-itens: centro;
+    justify-content: center;
+    justify-items: center;
 }
 
-botão {
-    decoração de texto: nenhum;
-    fundo: # 4949fa;
-    cor: # fff;
-    preenchimento: 13 px;
-    raio da borda: 5 px;
-    cursor: ponteiro;
+button {
+    text-decoration: none;
+    background: #4949fa;
+    color: #fff;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 a {
-    decoração de texto: nenhum;
-    cor: # fff;
+    text-decoration: none;
+    color: #fff;
 }

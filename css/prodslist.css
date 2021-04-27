@@ -1,41 +1,41 @@
-# tbProds {
-    família de fontes: 'Courier New', Courier, monospace;
-    colapso da fronteira: colapso;
-    largura: 100 %;
+#tbProds {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-# tbProds td,
-# tbProds th {
-    borda: 1 px sólido # ddd;
-    preenchimento: 8 px;
+#tbProds td,
+#tbProds th {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
-# tbProds tr : nth-child (even) {
-    background-color: # f2f2f2;
+#tbProds tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
-# tbProds tr : hover {
-    background-color: # ddd;
+#tbProds tr:hover {
+    background-color: #ddd;
 }
 
-# tbProds th {
-    padding-top: 12 px;
-    fundo de preenchimento: 12 px;
-    alinhamento de texto: esquerda;
-    cor de fundo: # 2d4af2;
-    cor: branco;
+#tbProds th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2d4af2;
+    color: white;
 }
 
-. containerButton {
+.containerButton {
     display: flex;
-    justificar-conteúdo: centro;
-    justificar-itens: centro;
-    margem superior: 30 px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
 }
 
 header {
     display: flex;
-    justificar-conteúdo: centro;
-    justificar-itens: centro;
-    cor: rgb (3, 3, 193);
+    justify-content: center;
+    justify-items: center;
+    color: rgb(3, 3, 193);
 }
