@@ -1,0 +1,36 @@
+html,
+body {
+    / * Reset do css * / margem: 0;
+    preenchimento: 0;
+    dimensionamento da caixa: caixa de borda;
+}
+
+. titulo {
+    cor: # 0f0feb;
+    alinhamento de texto: centro;
+    família de fontes: 'Courier New', Courier, monospace;
+}
+
+. containerHeaderIndex {
+    margem inferior: 100 px;
+}
+
+. containerMainIndex {
+    display: flex;
+    justificar-conteúdo: centro;
+    justificar-itens: centro;
+}
+
+botão {
+    decoração de texto: nenhum;
+    fundo: # 4949fa;
+    cor: # fff;
+    preenchimento: 13 px;
+    raio da borda: 5 px;
+    cursor: ponteiro;
+}
+
+a {
+    decoração de texto: nenhum;
+    cor: # fff;
+}

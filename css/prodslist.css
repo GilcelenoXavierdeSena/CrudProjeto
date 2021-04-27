@@ -1,0 +1,41 @@
+# tbProds {
+    família de fontes: 'Courier New', Courier, monospace;
+    colapso da fronteira: colapso;
+    largura: 100 %;
+}
+
+# tbProds td,
+# tbProds th {
+    borda: 1 px sólido # ddd;
+    preenchimento: 8 px;
+}
+
+# tbProds tr : nth-child (even) {
+    background-color: # f2f2f2;
+}
+
+# tbProds tr : hover {
+    background-color: # ddd;
+}
+
+# tbProds th {
+    padding-top: 12 px;
+    fundo de preenchimento: 12 px;
+    alinhamento de texto: esquerda;
+    cor de fundo: # 2d4af2;
+    cor: branco;
+}
+
+. containerButton {
+    display: flex;
+    justificar-conteúdo: centro;
+    justificar-itens: centro;
+    margem superior: 30 px;
+}
+
+header {
+    display: flex;
+    justificar-conteúdo: centro;
+    justificar-itens: centro;
+    cor: rgb (3, 3, 193);
+}
