@@ -1,4 +1,4 @@
-/ Referencias do DOM - HTML
+// Referencias do DOM - HTML
 
 const inpCod = document.getElementById('inpCod');
 const inpNome = document.getElementById('inpNome');
@@ -22,7 +22,6 @@ const api = axios.create({
 
 
 document.querySelector('form').addEventListener('submit', event => {
-
     event.preventDefault();
 });
 
@@ -85,3 +84,4 @@ function limparCampos(){
     inpCod.focus();
 }
     
+   
