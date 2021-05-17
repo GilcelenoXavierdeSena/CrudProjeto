@@ -6,7 +6,7 @@ const inpFab = document.getElementById('inpFab');
 
 const btnInclude = document.getElementById('btnInclude');
 
-console.log(btnInclude);
+
 
 // Código
 
